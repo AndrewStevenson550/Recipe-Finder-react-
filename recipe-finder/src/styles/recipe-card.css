@@ -1,0 +1,21 @@
+.recipe-card{
+    background-color: rgb(21, 21, 21);
+    border-radius: 10px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    min-width: 250px;
+
+    /* Use flexbox to center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-ingredients{
+    text-align: center;
+}
+
+.recipe-name{
+    text-align: center;
+}
